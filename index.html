@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <title>Gmail - Posta in entrata</title>
+  </head>
+  <body>
+    <div class="contenitore">
+
+      <!-- Logo -->
+      <header class="stile-intestazione">
+        <img class="foto-logo"src="images/gmail-logo.jpg" alt="logo gmail">
+        <span class="text-logo">Gmail</span>
+      </header>
+
+      <hr>
+
+      <!-- Ricerca e unread -->
+      <div class="stile-intestazione">
+        <div class="barra-ricerca">
+          <input type="text" name="ricerca" placeholder="Search...">
+          <input type="button" value="VAI">
+        </div>
+        <p>You have <span id="unread">30</span> unread</p>
+      </div>
+
+      <hr>
+
+      <!-- mail lette e non lette -->
+      <main>
+        <div class="row-unread">
+
+          <input type="checkbox" name="read">
+          <span>&#9733</span>
+          <span class="subject">Oggetto della mail</span>
+          <span class="corpo">Testo della mail</span>
+
+        </div>
+        <div class="row-unread">
+
+          <input type="checkbox" name="read">
+          <span>&#9733</span>
+          <span class="subject">Oggetto della mail</span>
+          <span class="corpo">Testo della mail</span>
+
+        </div>
+        <div class="row-read">
+
+          <input type="checkbox" name="read">
+          <span>&#9733</span>
+          <span class="subject">Oggetto della mail</span>
+          <span class="corpo">Testo della mail</span>
+
+        </div>
+        <div class="row-unread">
+
+          <input type="checkbox" name="read">
+          <span>&#9733</span>
+          <span class="subject">Oggetto della mail</span>
+          <span class="corpo">Testo della mail</span>
+
+        </div>
+      </main>
+
+      <footer>
+        <hr>
+        <p class="stile-footer"><strong id="big">Gmail</strong><italic> powered by boolean</italic><p>
+      </footer>
+
+    </div>
+
+  </body>
+</html>
